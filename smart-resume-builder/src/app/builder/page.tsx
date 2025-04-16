@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { HandDrawnArrow } from "@/components/hand-drawn-arrow"
+// import { HandDrawnArrow } from "@/components/hand-drawn-arrow"
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
             >
               <Link href="/builder">Start Building Your Resume</Link>
             </Button>
-            <HandDrawnArrow className="absolute -right-24 top-0 w-24 h-24 text-slate-700 hidden md:block" />
+            {/* <HandDrawnArrow className="absolute -right-24 top-0 w-24 h-24 text-slate-700 hidden md:block" /> */}
           </div>
 
           <div className="mt-24 grid grid-cols-1 md:grid-cols-3 gap-8">
