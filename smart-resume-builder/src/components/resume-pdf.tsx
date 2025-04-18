@@ -40,8 +40,8 @@ export const ResumePDF = ({ data }: { data: ResumeData }) => (
         <Text style={styles.heading}>Experience</Text>
         {data.experience.map((job, idx) => (
           <View key={idx}>
-            <Text>{job.title} at {job.company}</Text>
-            <Text>{job.duration}</Text>
+            {/* <Text>{job.title} at {job.company}</Text> */}
+            {/* <Text>{job.duration}</Text> */}
             <Text>{job.description}</Text>
           </View>
         ))}
@@ -52,7 +52,7 @@ export const ResumePDF = ({ data }: { data: ResumeData }) => (
         {data.education.map((edu, idx) => (
           <View key={idx}>
             <Text>{edu.degree} - {edu.institution}</Text>
-            <Text>{edu.year}</Text>
+            {/* <Text>{edu.year}</Text> */}
           </View>
         ))}
       </View>
